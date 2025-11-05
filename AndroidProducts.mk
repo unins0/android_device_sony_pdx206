@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pdx206.mk
+    $(LOCAL_DIR)/voltage_pdx206.mk
+
+COMMON_LUNCH_CHOICES := \
+    voltage_pdx206-user \
+    voltage_pdx206-userdebug \
+    voltage_pdx206-eng
